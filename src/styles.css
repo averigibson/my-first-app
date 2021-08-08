@@ -1,0 +1,55 @@
+.navbar-location {
+    position: fixed;
+    right: 0;
+}
+
+.temperature {
+    background: #fff;
+    display: flex;
+    color: #76d1cb;
+    font-size: 80px;
+    text-align: center;
+    justify-content: center;
+}
+
+.units {
+    background: #fff;
+    display: flex;
+    color: #76d1cb;
+    font-size: 60px;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
+
+.location {
+    font-size: 50px;
+    text-align: center;
+}
+
+.day {
+    font-size: 30px;
+    text-align: center;
+    margin: 0px;
+}
+
+.card-body {
+    text-align: center;
+    bottom: 0;
+    border: 8px solid #76d1cb;
+    color: #76d1cb;
+    width: 200px;
+    height: 200px;
+    display: block;
+    background: #fff;
+}
+
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    color: #76d1cb;
+    font-style: italic;
+}

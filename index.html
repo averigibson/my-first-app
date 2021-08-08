@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My First App</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="src/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <nav class="navbar navbar-location">
+                    <form class="form-inline" id="search-form">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Where to?" aria-label="Search" id="city-input" />
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Current Location
+          </button>
+                    </form>
+                </nav>
+            </div>
+        </div>
+
+        <div class="temperature" id="temperature">
+        </div>
+        <div class="units">°C</div>
+        <div class="location" id="city">
+            Nashville </div>
+        <div class="day" id="current-date">
+            Date
+        </div>
+        <ul>
+            <li>Humidity: <span id="humidity"></span>%</li>
+            <li>Wind: <span id="wind"></span> km/h</li>
+            <li><span id="description"></span> cloudy</li>
+        </ul>
+        </br>
+    </div>
+    <div class="card-group">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Monday</h5>
+                <p class="card-text">75°F</p>
+                <p class="card-text"><small class="text-muted">☀️</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Tuesday</h5>
+                <p class="card-text">75°F</p>
+                <p class="card-text"><small class="text-muted">☀️</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Wednesday</h5>
+                <p class="card-text">75°F</p>
+                <p class="card-text"><small class="text-muted">☀️</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Thursday</h5>
+                <p class="card-text">75°F</p>
+                <p class="card-text"><small class="text-muted">☀️</small></p>
+            </div>
+        </div>
+        <div class="card">
+
+            <div class="card-body">
+                <h5 class="card-title">Friday</h5>
+                <p class="card-text">75°F</p>
+                <p class="card-text"><small class="text-muted">☀️</small></p>
+            </div>
+        </div>
+    </div>
+    <script src="src/index.js"></script>
+</body>
+
+</html>
