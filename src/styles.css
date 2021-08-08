@@ -45,6 +45,10 @@
     background: #fff;
 }
 
+.badge-badge-info {
+    color: #76d1cb;
+}
+
 ul {
     display: block;
     margin: 0;
